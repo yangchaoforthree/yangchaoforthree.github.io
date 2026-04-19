@@ -6,20 +6,20 @@
     {%- assign last_char = _key | slice: -1, 1%}
     {%- assign last_2chars = _key | slice: -2, 2%}
     {%- if last_2chars == "*#" or last_2chars == "#*" -%}
-        {%- assign key = _key | replace: "#*", "" | replace: "*#", "" -%}
+        {%- assign key = _key | replace: "#*", "" | replace: "*#", "" | strip -%}
         {%- assign mark = "*<sup>#</sup>" -%}
         {%- assign has_eq_contrib = true -%}
         {%- assign has_corresponding = true -%}
     {%- elsif last_char == "*" -%}
-        {%- assign key = _key | split: "*" | first -%}
+        {%- assign key = _key | split: "*" | first | strip -%}
         {%- assign mark = "*" -%}
         {%- assign has_eq_contrib = true -%}
     {%- elsif last_char == "#" -%}
-        {%- assign key = _key | split: "#" | first -%}
+        {%- assign key = _key | split: "#" | first | strip -%}
         {%- assign mark = '<sup>#</sup>' -%}
         {%- assign has_corresponding = true -%}
     {%- else -%}
-        {%- assign key = _key -%}
+        {%- assign key = _key | strip -%}
         {%- assign mark = "" -%}
     {%- endif -%}
 
