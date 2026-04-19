@@ -7,7 +7,7 @@ pub:            "The Conference on Uncertainty in Artificial Intelligence (UAI)"
 pub_date:       "2025"
 # semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
 abstract: >-
-  Multivariate Hawkes processes are classic temporal point process models for event data. These models are simple and parametric in nature, offering interpretability by capturing the triggering effects between event types. However, these parametric models often struggle with low model capacity, limiting their expressive power to capture heterogeneous data patterns influenced by latent variables. In this paper, we propose a simple yet powerful extension: the Flow-based Delayed Hawkes Process, which integrates Normalizing Flows as a generative model to parameterize the Hawkes process. By generating all model parameters through the flow-based network, our approach significantly improves flexibility and expressiveness while preserving interpretability. We provide theoretical guarantees by proving the identifiability of the model parameters and the consistency of the maximum likelihood estimator under mild assumptions. Extensive experiments on both synthetic and realworld datasets show that our model outperforms existing baselines in capturing intricate and heterogeneous event dynamics.
+  Enhances delayed Hawkes processes with normalizing flows to achieve greater flexibility and expressiveness while preserving interpretability, supported by theoretical guarantees and improved performance.
 
 cover:          /assets/images/covers/Delayed-Hawkes.png
 authors:
