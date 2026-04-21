@@ -10,6 +10,7 @@ pub_date:       "2022"
 
 abstract: >-
   We learn interpretable temporal logic rules for point processes by iteratively expanding a rule set, using reinforcement learning to efficiently search complex rule spaces and improve event likelihood.
+
 cover:          /assets/images/covers/RL-TPP-Rule.png
 authors:
   - Chao Yang

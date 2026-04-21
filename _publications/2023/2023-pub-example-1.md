@@ -6,6 +6,7 @@ pub:            "ICML Workshop (IMLH)"
 pub_date:       "2023"
 abstract: >-
   We propose a temporal point process-based framework to optimize specific treatment actions via counterfactual analysis, providing targeted, interpretable feedback under medical constraints.
+  
 cover:          /assets/images/covers/Counterfactual-TPP.png
 authors:
 - Zilin Jing
