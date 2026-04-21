@@ -59,14 +59,14 @@
                         {%- else -%}
                         {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile.gscholar -%}
                         {%- endif -%}
-                        <a class="pr-3 no-break" target="_blank" href="{{ gscholar_url }}">
-                            <i class="fab fa-google-scholar"></i> Google Scholar
+                        <a class="pr-3 no-break" target="_blank" href="{{ gscholar_url }}" aria-label="Google Scholar">
+                            <i class="fab fa-google-scholar"></i>
                         </a>
                         {% endif %}
                         
                         {% if site.data.profile.github %}
-                        <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
-                            <i class="fab fa-github"></i> GitHub
+                        <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
                         </a>
                         {% endif %}
 
@@ -83,8 +83,8 @@
                         {% endif %}
 
                         {% if site.data.profile.linkedin %}
-                        <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
-                            <i class="fab fa-linkedin"></i> LinkedIn
+                        <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                         {% endif %}
 
