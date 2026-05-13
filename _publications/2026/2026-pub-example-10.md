@@ -1,18 +1,18 @@
 ---
-title:          "Branching Diffusion for Point Processes in Time and Space"
-date:           2026-05-01 00:01:00 +0800
+title:          "From Counts to Preferences: Preference-Driven Models for Spatio-Temporal Event Data"
+date:           2026-02-01 00:01:00 +0800
 selected:       true
-pub:            "The International Conference on Machine Learning (ICML)"
+pub:            "The International Conference on Artificial Intelligence and Statistics (AISTATS)"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 pub_date:       "2026"
 # semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
 abstract: >-
-  We propose a non-autoregressive diffusion framework for temporal and spatio-temporal point processes derived from the Wasserstein–Fisher–Rao gradient flow, enabling principled generation via configuration-level denoising.
+   We introduce a preference-driven framework that models event distributions through a two-stage “consider–then–choose” process.
 
-cover:          /assets/images/covers/Branching.png
+cover:          /assets/images/covers/GLANCE.png
 authors:
-  - Chao Yang
-  - Wenjie Shen
+  - Chao Yang *
+  - Yiling Kuang *
   - Shuang Li
 links:
   # Paper: https://openreview.net/pdf?id=QRms4lx0Fp
