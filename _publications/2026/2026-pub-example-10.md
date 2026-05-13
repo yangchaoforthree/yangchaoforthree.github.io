@@ -1,7 +1,7 @@
 ---
 title:          "Learning Human Habits with Rule-Guided Active Inference"
 date:           2026-01-29 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "The International Conference on Learning Representations (ICLR)"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 pub_date:       "2026"

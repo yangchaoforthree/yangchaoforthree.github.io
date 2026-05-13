@@ -1,7 +1,7 @@
 ---
 title:          "Deliberate-When-Needed: Flow-Reasoner for Neuro-Symbolic Continuous Thought"
 date:           2026-02-01 00:02:00 +0800
-selected:       true
+selected:       false
 pub:            "The International Conference on Artificial Intelligence and Statistics (AISTATS)"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 pub_date:       "2026"
