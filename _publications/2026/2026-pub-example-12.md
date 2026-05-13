@@ -1,18 +1,19 @@
 ---
-title:          "Forward-Chaining Temporal Point Process"
-date:           2026-05-01 00:02:00 +0800
+title:          "Deliberate-When-Needed: Flow-Reasoner for Neuro-Symbolic Continuous Thought"
+date:           2026-02-01 00:02:00 +0800
 selected:       true
-pub:            "The International Conference on Machine Learning (ICML)"
+pub:            "The International Conference on Artificial Intelligence and Statistics (AISTATS)"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 pub_date:       "2026"
 # semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
 abstract: >-
-  FC-TPP enables controllable and constraint-aware continuous-time event sequence generation by coupling temporal point processes with differentiable multi-hop logical reasoning in latent symbolic space.
+   We propose Deliberate-When-Needed, a continuous-time model that marries neural ODEs with temporal point processes to explain action generation through interpretable, multi-hop reasoning.
 
-cover:          /assets/images/covers/FC-TPP.png
+cover:          /assets/images/covers/Flow-Reasoner.png
 authors:
+  - Wenjie Shen *
+  - Boyang Li *
   - Chao Yang
-  - Wendi Ren
   - Shuang Li
 links:
   # Paper: https://openreview.net/pdf?id=QRms4lx0Fp
